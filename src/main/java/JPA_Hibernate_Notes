@@ -1,0 +1,25 @@
+(JPA) is a Java specification for accessing, persisting, and managing data between Java objects / classes and a relational database.
+JPA is pojo based
+Controllers handle requests and responses
+Controllers has no business logic
+Services handle business logic
+Service has @Service annotation
+Repository describes has basic crud functions and has @Repository annotation
+Setter injection is a dependency injection in which the spring framework injects the dependency object using the setter method
+Spring @Autowired annotation is used for automatic dependency injection.
+@Enity means a class is tied to a database
+@id identifies what field is a primary key
+We can use the naming strategy implementation in applicagion properties to make tables uppercase
+@Column lets us rename columns
+ Persistence context keeps track of any changes made into a managed entity
+@OneToMany is used to define a one to many relationship between an object and a list of objects. This is paired with @manyToOne.
+@OnetoMany and @manyToOne is tied together using mappedBy
+Lazy - DB query when property is called
+Eager - DB query when object is created
+A named query is a SQL expression represented as a table.
+Save methods are overridden for updates in springboot
+You can update in post using request parameters
+JPA repository has inherited methods such as save, findall, and findbyid
+
+
+
