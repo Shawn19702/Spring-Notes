@@ -21,5 +21,14 @@ Save methods are overridden for updates in springboot
 You can update in post using request parameters
 JPA repository has inherited methods such as save, findall, and findbyid
 
+Spring Boot 2 Notes:
+Spring is open source and event driven
+Spring has a dependency and build management layer
+Spring Boot has Maven and gradle as its build automation tools
+Cloud infrastructures include AWS/AZURE/GCP
+You need the starter test dependency to test in spring boot
+Spring boot is an abstraction
+
+
 
 
